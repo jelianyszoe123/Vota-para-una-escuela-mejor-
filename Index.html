@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Vota por Jelianys - Consejo Estudiantil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f5f7ff;
+            color: #222;
+        }
+        header {
+            background: linear-gradient(135deg, #7b5cff, #ff8ad4);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.2rem;
+        }
+        header p {
+            margin-top: 10px;
+            font-size: 1.1rem;
+        }
+        nav {
+            background: #ffffff;
+            border-bottom: 1px solid #ddd;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 10px 20px;
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        nav a {
+            text-decoration: none;
+            color: #444;
+            font-weight: bold;
+            padding: 6px 10px;
+            border-radius: 20px;
+        }
+        nav a:hover {
+            background: #f0e9ff;
+            color: #7b5cff;
+        }
+        main {
+            max-width: 900px;
+            margin: 20px auto 40px;
+            padding: 0 15px;
+        }
+        section {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+        }
+        section h2 {
+            margin-top: 0;
+            color: #7b5cff;
+        }
+        .propuestas ul {
+            padding-left: 20px;
+        }
+        .boton-votar {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: #7b5cff;
+            color: white;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .boton-votar:hover {
+            background: #5a3ed1;
+        }
+        .tarjeta {
+            border-left: 4px solid #ff8ad4;
+            padding-left: 12px;
+            margin: 10px 0;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .destacado {
+            background: #fff4fb;
+            border-radius: 10px;
+            padding: 10px 15px;
+            margin-top: 10px;
+        }
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Vota por Jelianys</h1>
+    <p>Para el Consejo Estudiantil — Voz, creatividad y compromiso para nuestra escuela</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#propuestas">Propuestas</a></li>
+        <li><a href="#por-que-yo">¿Por qué votar por mí?</a></li>
+        <li><a href="#como-votar">Cómo votar</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="sobre-mi">
+        <h2>Sobre mí</h2>
+        <p>
+            Hola, soy <strong>Jelianys</strong> y me postulo para formar parte del Consejo Estudiantil.
+            Me encanta trabajar en equipo, escuchar ideas nuevas y crear proyectos que hagan la escuela
+            un lugar más divertido, organizado y creativo para todos.
+        </p>
+        <div class="destacado">
+            <strong>Lo que me define:</strong>
+            <ul>
+                <li>Responsable y comprometida con mis tareas.</li>
+                <li>Creativa, con muchas ideas para actividades y proyectos.</li>
+                <li>Buena comunicadora y siempre dispuesta a escuchar.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="propuestas" class="propuestas">
+        <h2>Mis propuestas</h2>
+        <div class="tarjeta">
+            <h3>1. Más actividades creativas</h3>
+            <p>
+                Talleres de arte, diseño, música y tecnología para que todos podamos explorar nuestros talentos.
+            </p>
+        </div>
+        <div class="tarjeta">
+            <h3>2. Espacios para escuchar al estudiantado</h3>
+            <p>
+                Buzón de sugerencias y reuniones periódicas para que tus ideas lleguen al Consejo Estudiantil.
+            </p>
+        </div>
+        <div class="tarjeta">
+            <h3>3. Eventos especiales</h3>
+            <p>
+                Días temáticos, concursos amistosos y actividades que hagan el ambiente escolar más alegre y unido.
+            </p>
+        </div>
+        <div class="tarjeta">
+            <h3>4. Comunicación clara</h3>
+            <p>
+                Informar de forma sencilla y rápida sobre decisiones, actividades y oportunidades para participar.
+            </p>
+        </div>
+    </section>
+
+    <section id="por-que-yo">
+        <h2>¿Por qué votar por mí?</h2>
+        <ul>
+            <li><strong>Escucho:</strong> tu opinión importa, y quiero representarla con respeto.</li>
+            <li><strong>Actúo:</strong> no solo prometo, también organizo, planifico y doy seguimiento.</li>
+            <li><strong>Trabajo en equipo:</strong> creo en unir ideas para lograr cambios reales.</li>
+        </ul>
+        <p>
+            Si me eliges, usaré mi creatividad y compromiso para que nuestra voz se escuche y
+            nuestra escuela siga mejorando.
+        </p>
+        <a class="boton-votar" href="#como-votar">¡Quiero votar por Jelianys!</a>
+    </section>
+
+    <section id="como-votar">
+        <h2>Cómo votar</h2>
+        <p>
+            El día de las elecciones, busca mi nombre en la boleta:
+        </p>
+        <p class="destacado">
+            <strong>Nombre:</strong> Jelianys<br>
+            <strong>Posición:</strong> Consejo Estudiantil
+        </p>
+        <p>
+            Marca mi nombre y deposita tu voto. ¡Cada voto cuenta!
+        </p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto e ideas</h2>
+        <p>
+            ¿Tienes una idea, sugerencia o pregunta? Puedes hablar conmigo en persona o escribirme:
+        </p>
+        <ul>
+            <li><strong>Correo:</strong> jeliaysortiz19713@gmail.com</li>
+    
+        </ul>
+        <p>
+            Tu opinión es importante. Construyamos juntos una escuela más creativa, organizada y divertida.
+        </p>
+    </section>
+</main>
+
+<footer>
+    Campaña de Jelianys para el Consejo Estudiantil · “Tu voz, mi compromiso”
+</footer>
+
+</body>
+</html>
+
+
+<!-- SECCIÓN DE VOTACIÓN -->
+<section id="votar">
+    <h2>Vota aquí</h2>
+    <p>Escribe tu nombre y selecciona tu voto.</p>
+
+    <form id="formVoto">
+        <label>Tu nombre:</label><br>
+        <input type="text" id="nombre" required><br><br>
+
+        <label>¿Votas por Jelianys?</label><br>
+        <select id="voto" required>
+            <option value="">Selecciona</option>
+            <option value="Sí">Sí</option>
+            <option value="No">No</option>
+        </select><br><br>
+
+        <button type="submit">Enviar voto</button>
+    </form>
+
+    <p id="mensaje" style="color: green; font-weight: bold;"></p>
+</section>
+
+<hr>
+
+<!-- SECCIÓN PRIVADA PARA TI -->
+<section id="admin">
+    <h2>Zona privada</h2>
+    <p>Introduce la contraseña para ver los votos.</p>
+
+    <input type="password" id="clave" placeholder="Contraseña">
+    <button onclick="acceder()">Entrar</button>
+
+    <div id="panel" style="display:none; margin-top:20px;">
+        <h3>Lista de votos recibidos</h3>
+        <ul id="listaVotos"></ul>
+    </div>
+</section>
+
+<script>
+// Guardar votos en localStorage
+document.getElementById("formVoto").addEventListener("submit", function(e){
+    e.preventDefault();
+
+    let nombre = document.getElementById("nombre").value;
+    let voto = document.getElementById("voto").value;
+
+    let votos = JSON.parse(localStorage.getItem("votos")) || [];
+    votos.push({nombre, voto});
+    localStorage.setItem("votos", JSON.stringify(votos));
+
+    document.getElementById("mensaje").innerText = "¡Gracias por votar!";
+    document.getElementById("formVoto").reset();
+});
+
+// Acceso privado
+function acceder(){
+    let clave = document.getElementById("clave").value;
+
+    if(clave === "Jellyarte"){  // <-- cámbiala
+        document.getElementById("panel").style.display = "block";
+        mostrarVotos();
+    } else {
+        alert("Contraseña incorrecta");
+    }
+}
+
+// Mostrar votos
+function mostrarVotos(){
+    let votos = JSON.parse(localStorage.getItem("votos")) || [];
+    let lista = document.getElementById("listaVotos");
+    lista.innerHTML = "";
+
+    votos.forEach(v => {
+        let li = document.createElement("li");
+        li.textContent = v.nombre + " — Voto: " + v.voto;
+        lista.appendChild(li);
+    });
+}
+</script>
+
+
+<script>
+    // Lista de mensajes positivos
+    const mensajes = [
+        "Hoy es un gran día para brillar ✨",
+        "Cree en ti, estás más cerca de lo que piensas 💪",
+        "Tu esfuerzo vale la pena, sigue adelante 🌟",
+        "Eres capaz de cosas increíbles 💖",
+        "Cada día es una nueva oportunidad para crecer 🌱",
+        "Tu energía hace la diferencia en este mundo 🌈",
+        "Nunca subestimes lo fuerte que eres 💜",
+        "Hoy puedes lograr algo hermoso ✨"
+    ];
+
+    // Elegir un mensaje al azar
+    const mensaje = mensajes[Math.floor(Math.random() * mensajes.length)];
+
+    // Crear el aviso
+    window.onload = function() {
+        const aviso = document.createElement("div");
+        aviso.style.position = "fixed";
+        aviso.style.top = "20px";
+        aviso.style.right = "20px";
+        aviso.style.padding = "20px";
+        aviso.style.background = "#ffffff";
+        aviso.style.borderRadius = "15px";
+        aviso.style.boxShadow = "0 4px 15px rgba(0,0,0,0.15)";
+        aviso.style.fontFamily = "Poppins, sans-serif";
+        aviso.style.color = "#6b21a8";
+        aviso.style.fontWeight = "600";
+        aviso.style.zIndex = "9999";
+        aviso.style.animation = "fadeIn 0.6s ease";
+
+        aviso.innerText = mensaje;
+
+        document.body.appendChild(aviso);
+
+        // Desaparece después de 5 segundos
+        setTimeout(() => {
+            aviso.style.transition = "0.5s";
+            aviso.style.opacity = "0";
+            setTimeout(() => aviso.remove(), 500);
+        }, 5000);
+    };
+</script>
+
+<style>
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+</style
